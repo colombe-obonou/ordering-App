@@ -36,12 +36,5 @@ python main.py
 streamlit run streamlit_app.py
 Access the chatbot at http://localhost:8501
 
-## Project Structure
-chatbot-commande/
-├── main.py               # FastAPI backend
-├── openai_service.py     # OpenAI integration
-├── model.py             # Data models
-├── utils.py             # Helper functions
-├── streamlit_app.py      # Chat interface
-└── requirements.txt      # Dependencies
+
 
