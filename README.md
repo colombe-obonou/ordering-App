@@ -1,18 +1,5 @@
 
 
-An intelligent chatbot solution for automated customer order processing through conversational API.
-
-## Key Features
-
-- **Universal order handling** - Supports any product type (electronics, food, etc.)
-- **Smart data collection**:
-  - Product specifications (brand, model, size)
-  - Customer details (name, address, contact)
-- **Structured output** - Automatically generates validated JSON orders
-- **Streaming interface** - Real-time chat experience
-
-## Tech Stack
-
 ```mermaid
 graph LR
     A[Streamlit UI] --> B[FastAPI]
