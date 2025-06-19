@@ -1,8 +1,4 @@
-# Order Management Chatbot
 
-![Chatbot Demo](https://img.shields.io/badge/Demo-Streamlit-FF4B4B?logo=streamlit) 
-![API](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi) 
-![AI](https://img.shields.io/badge/Powered%20by-OpenAI-412991?logo=openai)
 
 An intelligent chatbot solution for automated customer order processing through conversational API.
 
@@ -36,5 +32,13 @@ python main.py
 streamlit run streamlit_app.py
 Access the chatbot at http://localhost:8501
 
+Project structure:
+chatbot-commande/
+├── main.py               # FastAPI backend
+├── openai_service.py     # OpenAI integration
+├── model.py             # Data models
+├── utils.py             # Helper functions
+├── streamlit_app.py      # Chat interface
+└── requirements.txt      # Dependencies
 
 
